@@ -1,0 +1,138 @@
+
+body {
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: rgb(4, 6, 48);
+  margin-bottom: 20px;
+}
+
+/* Inicio */
+.nav {
+  font-size: 20px;
+} 
+
+.welcome-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8%;
+  margin-bottom: 6%;
+  padding: 20px;
+  background-color: #000000;
+  
+}
+
+.welcome-text {
+  max-width: 50%;
+}
+
+.welcome-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.welcome-text p {
+  font-size: 1.5rem;
+}
+
+.welcome-image img {
+  max-width: 100%;
+  height: 100%;
+
+}
+
+button.mb-2 {
+  margin-bottom: 10px;
+}
+
+/* Card  */
+.container-card {
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* Comentarios */
+.div-contenedor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 80px;
+    
+}
+
+.div-formulario {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 20px;
+  padding: 5px;
+  padding-bottom: 10px;
+    
+}
+
+.div-comentario {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+      
+}
+
+.table {
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 10px;
+   
+}
+
+/*categorias*/
+.container-categoria {
+  margin-top: 100px;
+}
+
+.card-categoria {
+  font-size: 40px;
+  
+}
+
+
+/* registrarse */
+.div-registrarse {
+  margin-top: 180px;
+  margin-bottom: 160px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.btn-registrarse {
+  background-color: rgb(23, 23, 168);
+  color: white;
+  border-radius: 3px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 110px;
+  background-color: rgb(4, 6, 48);
+  color: white;
+  
+}
+
+/* Like */
+.div-like {
+  padding-left: 200px;
+}
+
+.btn-like {
+  background-color: yellow;
+  color: rgb(16, 10, 196);
+}
+
